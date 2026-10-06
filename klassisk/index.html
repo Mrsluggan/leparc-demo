@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Le Parc Bistro – restaurang i Börjeparken, Uppsala</title>
+<meta name="description" content="Bistro med fransk, italiensk och svensk mat i Börjeparken, norr om Domkyrkan i Uppsala. Terrass för 150 gäster, Parcswing med dans fredag och lördag. Boka bord på 018-54 84 88.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Le Parc Bistro">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:title" content="Le Parc Bistro – din oas i Börjeparken">
+<meta property="og:description" content="Fransk, italiensk och svensk bistromat i Börjeparken, Uppsala. Terrass för 150 gäster och dans fredag och lördag.">
+<meta property="og:url" content="https://leparc.sluggan.com/klassisk/">
+<meta property="og:image" content="https://leparc.sluggan.com/img/og.jpg">
+<meta property="og:image:alt" content="Le Parc i Börjeparken med körsbärsträden i blom">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1f3329">
+<link rel="icon" href="../img/favicon.png">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="preload" href="../fonts/playfair.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../fonts/fonts.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "@id": "https://leparc.se/#restaurang",
+  "name": "Le Parc Bistro",
+  "description": "Bistro i Börjeparken i Uppsala med en meny som blandar det franska, italienska och svenska köket. Terrass för 150 gäster och Parcswing med dans fredag och lördag.",
+  "url": "https://leparc.se/",
+  "image": "https://leparc.sluggan.com/img/og.jpg",
+  "logo": "https://leparc.sluggan.com/img/trad.png",
+  "telephone": "+4618548488",
+  "email": "info@leparc.se",
+  "servesCuisine": ["Franskt", "Italienskt", "Svenskt"],
+  "priceRange": "85–415 kr",
+  "acceptsReservations": true,
+  "menu": "https://leparc.se/meny/",
+  "geo": {"@type": "GeoCoordinates", "latitude": 59.86067, "longitude": 17.62471},
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Torsgatan 15",
+    "postalCode": "753 13",
+    "addressLocality": "Uppsala",
+    "addressCountry": "SE"
+  }, "opens": "16:00", "closes": "23:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday", "Sunday"], "opens": "13:00", "closes": "23:00"}
+  ],
+  "sameAs": [
+    "https://www.instagram.com/leparc_uppsala",
+    "https://www.facebook.com/leparcuppsala/",
+    "https://www.tripadvisor.se/Restaurant_Review-g189871-d784309-Reviews-Le_Parc-Uppsala_Uppsala_County.html"
+  ]
+}
+</script>
+<style>
+:root{
+  --green:#1f3329;
+  --green-2:#2a4537;
+  --green-3:#3d5e4b;
+  --cream:#f6f2ea;
+  --paper:#fbf9f4;
+  --text:#28302b;
+  --muted:#66706a;
+  --line:#e2ddd1;
+  --brass:#b38b4d;
+  --brass-d:#97733a;
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'Work Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:var(--paper);color:var(--text);font:400 17px/1.7 var(--sans);-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+.narrow{max-width:760px}
+.center{text-align:center}
+.eyebrow{display:block;color:var(--brass);font:500 13px/1 var(--sans);letter-spacing:.26em;text-transform:uppercase;margin-bottom:16px}
+.rule{width:56px;height:1px;background:var(--brass);border:0;margin:24px auto}
+h2{font-size:clamp(34px,4.6vw,50px)}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;padding:14px 28px;border-radius:2px;background:var(--brass);color:#fff;text-decoration:none;font:500 14px/1.2 var(--sans);letter-spacing:.14em;text-transform:uppercase;border:1px solid var(--brass);cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn:hover{background:var(--brass-d);border-color:var(--brass-d)}
+.btn.ghost{background:transparent;border-color:rgba(255,255,255,.7);color:#fff}
+.btn.ghost:hover{background:#fff;color:var(--green);border-color:#fff}
+.btn.dark{background:var(--green);border-color:var(--green)}
+.btn.dark:hover{background:var(--green-2)}
+
+/* sidhuvud */
+.topline{background:var(--green);color:#cfd8d1;font-size:13px;letter-spacing:.04em}
+.topline .wrap{display:flex;gap:24px;justify-content:flex-end;height:36px;align-items:center}
+.topline a{text-decoration:none}
+.topline a:hover{color:#fff}
+header{position:sticky;top:0;z-index:20;background:var(--green);color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
+.bar{display:flex;align-items:center;gap:30px;height:76px}
+.logo{margin-right:auto;display:block}
+.logo img{height:56px;width:auto}
+nav{display:flex;gap:26px;align-items:center}
+nav a{text-decoration:none;font-size:13px;letter-spacing:.16em;text-transform:uppercase;opacity:.85;padding:6px 0}
+nav a:hover{opacity:1;box-shadow:0 1px 0 var(--brass)}
+nav .btn{opacity:1;padding:11px 20px;font-size:13px;margin-left:6px}
+nav .btn:hover{box-shadow:none}
+.menu-btn{display:none;background:none;border:0;color:#fff;padding:8px;margin-right:-8px;cursor:pointer}
+.menu-btn svg{width:26px;height:26px;display:block}
+
+/* hero */
+.hero{position:relative;min-height:calc(100svh - 112px);display:grid;place-items:center;text-align:center;color:#fff;background:var(--green) url("../img/park.jpg") center 60%/cover;padding:90px 0 70px}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,30,24,.62),rgba(18,30,24,.52) 45%,rgba(18,30,24,.86))}
+.hero .wrap{position:relative}
+.hero .eyebrow{color:#f1d9ae}
+.hero h1{font-size:clamp(48px,8.4vw,96px);font-weight:400;letter-spacing:-.01em;margin-bottom:12px}
+.hero h1 em{font-style:italic}
+.hero .sub{font:400 clamp(18px,2vw,21px)/1.5 var(--sans);color:#eef1ec;margin:0 auto 36px;max-width:560px}
+.hero .ctas{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:52px}
+.hero-info{display:inline-flex;flex-wrap:wrap;justify-content:center;border-top:1px solid rgba(255,255,255,.28);padding-top:24px;font-size:15px;color:#e6ebe6}
+.hero-info div{padding:0 26px;border-left:1px solid rgba(255,255,255,.28)}
+.hero-info div:first-child{border-left:0}
+.hero-info b{display:block;color:#fff;font-weight:500}
+.swing-badge{position:absolute;right:max(24px,calc(50% - 560px));bottom:40px;width:150px;height:150px;border-radius:50%;background:var(--green);border:1px solid var(--brass);display:grid;place-items:center;text-align:center;text-decoration:none;font:italic 400 19px/1.25 var(--serif);color:#fff;padding:18px;box-shadow:0 0 0 6px rgba(31,51,41,.5);transition:transform .2s}
+.swing-badge:hover{transform:rotate(-4deg) scale(1.04)}
+.swing-badge small{display:block;font:500 11px/1.4 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:#f1d9ae;font-style:normal;margin-top:4px}
+
+/* om */
+.about{padding:110px 0}
+.about-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:72px;align-items:center}
+.about-grid .photos{position:relative;padding:0 0 70px 0}
+.about-grid .photos img{border-radius:2px}
+.about-grid .photos .small{position:absolute;right:-28px;bottom:0;width:52%;border:8px solid var(--paper)}
+.about p{margin:0 0 16px}
+.about .lead{font:italic 400 23px/1.5 var(--serif);color:var(--green)}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin:34px 0 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.facts div{padding:20px 12px;text-align:center;border-left:1px solid var(--line)}
+.facts div:first-child{border-left:0}
+.facts b{display:block;font:400 34px/1.1 var(--serif);color:var(--green);font-variant-numeric:lining-nums}
+.facts span{font-size:13px;color:var(--muted);letter-spacing:.04em}
+
+/* meny */
+.menu-sec{background:var(--cream);padding:110px 0}
+.menu-sec .intro{color:var(--muted);max-width:620px;margin:0 auto}
+.chips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:34px 0 56px}
+.chips a{padding:8px 16px;border:1px solid var(--line);border-radius:40px;text-decoration:none;font-size:14px;background:var(--paper)}
+.chips a:hover{border-color:var(--green);color:var(--green)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:56px 72px}
+.group h3{font-size:30px;color:var(--green);margin-bottom:6px}
+.group .gdesc{color:var(--muted);font-size:15px;margin:0 0 22px;line-height:1.55}
+.dish{margin-bottom:22px}
+.row{display:flex;align-items:baseline;gap:10px}
+.row .n{font:500 21px/1.3 var(--serif)}
+.row .dots{flex:1;border-bottom:1px dotted #b9b3a5;transform:translateY(-5px)}
+.row .p{font:500 19px/1 var(--serif);color:var(--green);font-variant-numeric:lining-nums}
+.desc{margin:4px 0 0;color:var(--muted);font-size:15px;line-height:1.6;max-width:92%}
+.tag{display:inline-block;font:500 10.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;padding:5px 8px 4px;border-radius:2px;background:var(--green);color:#fff;vertical-align:4px;margin-left:8px}
+.tag.veg{background:#5f8b48}
+.tag.host{background:#b4612b}
+.tag.rek{background:var(--brass)}
+.menu-note{margin-top:56px;padding:26px 30px;background:var(--paper);border-left:3px solid var(--brass);display:flex;gap:24px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.menu-note p{margin:0;max-width:640px;color:var(--muted)}
+
+/* bildband */
+.strip{display:grid;grid-template-columns:repeat(4,1fr);height:360px}
+.strip img{width:100%;height:100%;object-fit:cover}
+
+/* parcswing */
+.swing{background:#161917;color:#e9ece8;display:grid;grid-template-columns:1fr 1fr;align-items:stretch}
+.swing .img{background:url("../img/parcswing.jpg") center/cover;min-height:520px}
+.swing .txt{padding:90px 72px;display:flex;flex-direction:column;justify-content:center}
+.swing .eyebrow{color:#e4c48f}
+.swing h2{color:#fff;margin-bottom:20px}
+.swing p{margin:0 0 14px;color:#c4cbc5;max-width:460px}
+.swing-times{display:flex;gap:0;margin:22px 0 30px;border:1px solid #3a403c;width:max-content;max-width:100%}
+.swing-times div{padding:16px 26px;border-left:1px solid #3a403c}
+.swing-times div:first-child{border-left:0}
+.swing-times b{display:block;font:400 26px/1.1 var(--serif);color:#fff;font-variant-numeric:lining-nums}
+.swing-times span{font-size:13px;color:#9aa39c;letter-spacing:.1em;text-transform:uppercase}
+
+/* galleri */
+.gallery{padding:110px 0}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:220px;gap:12px;margin-top:48px}
+.grid figure{margin:0;position:relative;overflow:hidden;border-radius:2px;background:var(--cream)}
+.grid img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.grid figure:hover img{transform:scale(1.04)}
+.grid .wide{grid-column:span 2}
+.grid .tall{grid-row:span 2}
+.grid figcaption{position:absolute;left:0;right:0;bottom:0;padding:24px 14px 10px;background:linear-gradient(transparent,rgba(0,0,0,.6));color:#fff;font-size:13px;letter-spacing:.06em}
+
+/* boka */
+.booking{background:var(--green);color:#e6ebe6;padding:110px 0}
+.booking .eyebrow{color:#e4c48f}
+.booking h2{color:#fff}
+.book-grid{display:grid;grid-template-columns:1fr 1.25fr;gap:72px;align-items:start}
+.book-grid p{color:#c5cfc8}
+.book-grid .phone{font:400 34px/1.2 var(--serif);color:#fff;text-decoration:none;display:inline-block;margin:6px 0 18px;font-variant-numeric:lining-nums}
+.book-grid .phone:hover{color:#f1d9ae}
+.book-grid h3{font-size:22px;color:#fff;margin:30px 0 8px}
+form{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;background:var(--paper);color:var(--text);padding:34px;border-radius:2px}
+form .full{grid-column:1/-1}
+form .two{grid-column:span 2}
+label{display:flex;flex-direction:column;gap:6px;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+input,select,textarea{font:400 16px/1.4 var(--sans);color:var(--text);padding:12px 14px;border:1px solid var(--line);border-radius:2px;background:#fff;width:100%;text-transform:none;letter-spacing:0}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--brass);outline-offset:-1px;border-color:var(--brass)}
+textarea{min-height:96px;resize:vertical}
+form .btn{justify-self:start}
+.form-foot{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.form-foot small{color:var(--muted);font-size:13px}
+.sent{display:none;margin:0;padding:12px 14px;background:#e9f0e8;color:#2d5131;border-radius:2px;font-size:15px}
+.sent.show{display:block}
+
+/* hitta hit */
+.find{padding:110px 0 0}
+.find-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:48px;margin:48px 0 56px}
+.find-grid h3{font-size:24px;color:var(--green);margin-bottom:12px}
+.find-grid p{margin:0 0 6px}
+.find-grid a{text-decoration:none;border-bottom:1px solid var(--line)}
+.find-grid a:hover{border-color:var(--brass)}
+.hours{width:100%;border-collapse:collapse;font-size:16px}
+.hours td{padding:5px 0;border-bottom:1px solid var(--line)}
+.hours td:last-child{text-align:right;font-variant-numeric:tabular-nums}
+.hours tr.today td{color:var(--green);font-weight:600}
+.hours tr.today td:first-child::after{content:" · idag";font-weight:400;color:var(--brass);font-size:13px}
+.map{position:relative;height:420px;background:var(--cream) url("../img/entre.jpg") center/cover}
+.map::before{content:"";position:absolute;inset:0;background:rgba(31,51,41,.55)}
+.map iframe{position:relative;width:100%;height:100%;border:0;display:block}
+.map-load{position:relative;width:100%;height:100%;background:none;border:0;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#fff;font:inherit}
+.map-load small{font-size:13px;opacity:.85}
+
+/* sidfot */
+footer{background:#172720;color:#a9b5ad;padding:64px 0 34px;font-size:15px}
+.foot{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:48px;padding-bottom:40px;border-bottom:1px solid #2c3d34}
+.foot img{height:64px;width:auto;margin-bottom:12px}
+.foot h4{margin:0 0 12px;color:#fff;font:500 13px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase}
+.foot p{margin:0 0 6px}
+.foot a{text-decoration:none}
+.foot a:hover{color:#fff}
+.social{display:flex;gap:10px;margin-top:16px}
+.social a{width:40px;height:40px;border:1px solid #33463b;border-radius:50%;display:grid;place-items:center}
+.social a:hover{border-color:var(--brass);color:#fff}
+.social svg{width:18px;height:18px}
+.copy{padding-top:24px;font-size:13px;color:#7e8d83}
+
+.callbar{display:none}
+
+@media (max-width:980px){
+  .topline{display:none}
+  nav{position:fixed;inset:76px 0 auto 0;flex-direction:column;align-items:stretch;gap:0;background:var(--green);padding:8px 24px 24px;transform:translateY(-120%);transition:transform .3s;box-shadow:0 12px 24px rgba(0,0,0,.2);z-index:-1}
+  nav.open{transform:none}
+  nav a{padding:15px 0;border-bottom:1px solid rgba(255,255,255,.08);font-size:14px}
+  nav .btn{margin:18px 0 0}
+  .menu-btn{display:block}
+  .hero{min-height:calc(100svh - 76px)}
+  .swing-badge{display:none}
+  .about-grid,.book-grid{grid-template-columns:1fr;gap:48px}
+  .about-grid .photos .small{right:0}
+  .swing{grid-template-columns:1fr}
+  .swing .img{min-height:320px}
+  .swing .txt{padding:64px 24px}
+  .cols{grid-template-columns:1fr;gap:48px}
+  .find-grid{grid-template-columns:1fr 1fr}
+  .foot{grid-template-columns:1fr 1fr}
+  .foot>div:first-child{grid-column:1/-1}
+  .strip{grid-template-columns:repeat(2,1fr);height:auto}
+  .strip img{aspect-ratio:4/3}
+}
+@media (max-width:640px){
+  body{font-size:16px;padding-bottom:68px}
+  .about,.menu-sec,.gallery,.booking{padding:76px 0}
+  .find{padding-top:76px}
+  .hero-info{display:grid;gap:14px;border:0}
+  .hero-info div{border:0;padding:0}
+  .facts b{font-size:28px}
+  .row .n{font-size:19px}
+  .grid{grid-template-columns:1fr 1fr;grid-auto-rows:160px}
+  .grid .wide{grid-column:span 2}
+  form{grid-template-columns:1fr 1fr;padding:22px}
+  form .half,form .two{grid-column:1/-1}
+  .find-grid,.foot{grid-template-columns:1fr}
+  .map{height:320px}
+  .swing-times div{padding:14px 18px}
+  .callbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:30;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:var(--green);box-shadow:0 -6px 18px rgba(0,0,0,.15)}
+  .callbar .btn{padding:13px 10px}
+}
+</style>
+</head>
+<body>
+
+<div class="topline">
+  <div class="wrap">
+    <a href="https://maps.app.goo.gl/FkVsGXXeb9VBwCPcA" target="_blank" rel="noopener">Torsgatan 15, Uppsala</a>
+    <a href="tel:+4618548488">018-54 84 88</a>
+    <a href="mailto:info@leparc.se">info@leparc.se</a>
+  </div>
+</div>
+
+<header id="hdr">
+  <div class="wrap bar">
+    <a class="logo" href="#top"><img src="../img/logo-vit.png" width="272" height="150" alt="Le Parc – Bistro i Börjeparken"></a>
+    <nav id="nav" aria-label="Huvudmeny">
+      <a href="#meny">Meny</a>
+      <a href="#om">Om Le Parc</a>
+      <a href="#parcswing">Parcswing</a>
+      <a href="#galleri">Galleri</a>
+      <a href="#hitta">Hitta hit</a>
+      <a class="btn" href="#boka">Boka bord</a>
+    </nav>
+    <button class="menu-btn" id="menu-btn" aria-label="Meny" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="top">
+  <div class="wrap">
+    <span class="eyebrow">Välkommen hem till Le Parc</span>
+    <h1>Din oas i <em>Börjeparken</em></h1>
+    <p class="sub">Fransk, italiensk och svensk bistromat mitt i parken, ett stenkast norr om Domkyrkan.</p>
+    <div class="ctas">
+      <a class="btn" href="#boka">Boka bord</a>
+      <a class="btn ghost" href="#meny">Se menyn</a>
+    </div>
+    <div class="hero-info">
+      <div><b id="today">Öppet alla dagar</b>Mån–fre från 16 · helg från 13</div>
+      <div><b>018-54 84 88</b>Ring och boka</div>
+      <div><b>Torsgatan 15</b>Börjeparken, Uppsala</div>
+    </div>
+  </div>
+  <a class="swing-badge" href="#parcswing">Parcswing<small>Dans fre &amp; lör<br>23–03</small></a>
+</section>
+
+<section class="about" id="om">
+  <div class="wrap about-grid">
+    <div class="photos">
+      <img src="../img/terrass.jpg" width="1600" height="900" loading="lazy" alt="Le Parcs terrass och glasveranda i Börjeparken">
+      <img class="small" src="../img/veranda.jpg" width="1400" height="985" loading="lazy" alt="Gäster i den inglasade verandan">
+    </div>
+    <div>
+      <span class="eyebrow">Om Le Parc</span>
+      <h2>Som att komma hem</h2>
+      <hr class="rule" style="margin-left:0">
+      <p class="lead">Letar du efter en restaurang där du kan känna dig som hemma? Då är Le Parc Bistro platsen för dig.</p>
+      <p>Vi ligger i den vackra Börjeparken, en kort promenad norr om Uppsala universitet och Domkyrkan. Menyn är en blandning av det franska, italienska och svenska köket, och vi byter rätter med säsongen för att få de bästa råvarorna.</p>
+      <p>Sommartid är terrassen hjärtat i huset, med plats för 150 gäster, tak mot regnet och infravärme när kvällarna blir svala. Och glöm inte att hälsa på forskningsresanden Finn Malmgren, som står staty i parken och har hållit oss sällskap i alla år.</p>
+      <div class="facts">
+        <div><b>360</b><span>dagar om året</span></div>
+        <div><b>150</b><span>platser på terrassen</span></div>
+        <div><b>3</b><span>kök: fransk, italiensk, svensk</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="menu-sec" id="meny">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">Höstmenyn</span>
+      <h2>Vår meny</h2>
+      <hr class="rule">
+      <p class="intro">Klassiska bistrorätter och säsongens råvaror. Fråga gärna personalen om allergener, vi hjälper dig att hitta rätt.</p>
+    </div>
+    <div class="chips">
+      <a href="#forratter">Förrätter</a>
+      <a href="#pasta">Pasta &amp; vegetariskt</a>
+      <a href="#fisk">Fisk &amp; skaldjur</a>
+      <a href="#kott">Kött</a>
+      <a href="#desserter">Desserter</a>
+    </div>
+
+    <div class="cols">
+      <div>
+        <div class="group" id="forratter">
+          <h3>Förrätter</h3>
+          <p class="gdesc">Mindre men naggande goda rätter, för att börja middagen på bästa sätt.</p>
+          <div class="dish"><div class="row"><span class="n">Toast Skagen<span class="tag">Klassiker</span></span><span class="dots"></span><span class="p">169</span></div>
+          <p class="desc">Räkor, majonnäs, rödlök och dill på smörstekt toast, toppad med löjrom.</p></div>
+          <div class="dish"><div class="row"><span class="n">Hummersoppa</span><span class="dots"></span><span class="p">165</span></div>
+          <p class="desc">Smaksatt med sherry, serveras med räkor och oststänger.</p></div>
+          <div class="dish"><div class="row"><span class="n">Chèvre &amp; rödbetor<span class="tag rek">Rekommenderas</span></span><span class="dots"></span><span class="p">169</span></div>
+          <p class="desc">Panerad chèvre gratinerad med honung och pinjenötter, med balsamicomarinerade rödbetor.</p></div>
+          <div class="dish"><div class="row"><span class="n">Råbiff</span><span class="dots"></span><span class="p">195</span></div>
+          <p class="desc">Med rödlök, kapris, dijonsenap, pepparrot, äggula och rödbetor.</p></div>
+        </div>
+
+        <div class="group" id="pasta" style="margin-top:56px">
+          <h3>Pasta &amp; vegetariskt</h3>
+          <p class="gdesc">Varmrätter med pasta, risotto eller grönsaker i centrum.</p>
+          <div class="dish"><div class="row"><span class="n">Tagliatelle med oxfilé</span><span class="dots"></span><span class="p">275</span></div>
+          <p class="desc">Västerbottensost, grädde, kantareller och tomater.</p></div>
+          <div class="dish"><div class="row"><span class="n">Fylld aubergine<span class="tag veg">Vegetarisk</span></span><span class="dots"></span><span class="p">225</span></div>
+          <p class="desc">Ricotta, zucchini, vårlök, tomater och persilja. Med mild tomatsås och basmatiris.</p></div>
+          <div class="dish"><div class="row"><span class="n">Tagliatelle med skaldjur</span><span class="dots"></span><span class="p">285</span></div>
+          <p class="desc">Scampi, musslor, räkor och kräftstjärtar i tomatsås.</p></div>
+          <div class="dish"><div class="row"><span class="n">Sparrisrisotto<span class="tag veg">Vegetarisk</span></span><span class="dots"></span><span class="p">235</span></div>
+          <p class="desc">Rostade pumpafrön, smörstekt och friterad salvia.</p></div>
+        </div>
+
+        <div class="group" id="fisk" style="margin-top:56px">
+          <h3>Fisk &amp; skaldjur</h3>
+          <p class="gdesc">Varmrätter med havet som huvudråvara.</p>
+          <div class="dish"><div class="row"><span class="n">Halstrad torskrygg<span class="tag rek">Havets läckerbit</span></span><span class="dots"></span><span class="p">280</span></div>
+          <p class="desc">Blomkål, pepparrot, forellrom, sandefjordsås och potatispuré.</p></div>
+          <div class="dish"><div class="row"><span class="n">Le Parcs bouillabaisse</span><span class="dots"></span><span class="p">298</span></div>
+          <p class="desc">Lax, gös, rödtunga, blåmusslor och räkor kokta med fänkål, saffran, tomat och vitlök. Med vitlöksbröd och aioli.</p></div>
+          <div class="dish"><div class="row"><span class="n">Bräserad gösfilé</span><span class="dots"></span><span class="p">275</span></div>
+          <p class="desc">Grädde, ansjovis, dill, vårlök, tomat och kokt potatis.</p></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="group" id="kott">
+          <h3>Kött</h3>
+          <p class="gdesc">Till alla kötträtter väljer du potatisgratäng, country fries eller ugnsrostad potatis.</p>
+          <div class="dish"><div class="row"><span class="n">Hjortytterfilé</span><span class="dots"></span><span class="p">365</span></div>
+          <p class="desc">Rödvinssås med rökig whisky, grillad tomat och potatisgratäng.</p></div>
+          <div class="dish"><div class="row"><span class="n">Älgköttbullar<span class="tag host">Höstmys</span></span><span class="dots"></span><span class="p">279</span></div>
+          <p class="desc">Gräddkokta kantareller, rårörda lingon, pressgurka och potatispuré med västerbottensost.</p></div>
+          <div class="dish"><div class="row"><span class="n">Le Parcs burgare</span><span class="dots"></span><span class="p">259</span></div>
+          <p class="desc">200 g högrev och bringa med ost, bacon, grovt bröd, fräst savoykål, rödlök och tomat. Med coleslaw, saltgurka och country fries.</p></div>
+          <div class="dish"><div class="row"><span class="n">Fläskfilé Oscar</span><span class="dots"></span><span class="p">279</span></div>
+          <p class="desc">Grillad sparris, bearnaisesås, rödvinssås och räkor.</p></div>
+          <div class="dish"><div class="row"><span class="n">Plankstek på oxfilé</span><span class="dots"></span><span class="p">375</span></div>
+          <p class="desc">Gratinerad duchessepotatis, bearnaisesås, baconlindade haricots verts och ugnsbakad tomat.</p></div>
+          <div class="dish"><div class="row"><span class="n">Kyckling coq au vin</span><span class="dots"></span><span class="p">275</span></div>
+          <p class="desc">Grillad kycklingfilé med brynta champinjoner, stekt lök, rödvinssky och potatisgratäng.</p></div>
+          <div class="dish"><div class="row"><span class="n">Klassisk pepparstek<span class="tag">Klassiker</span></span><span class="dots"></span><span class="p">415</span></div>
+          <p class="desc">En rejäl bit tournedos rullad i fyra sorters peppar, med cognacsdoftande pepparsås.</p></div>
+        </div>
+
+        <div class="group" id="desserter" style="margin-top:56px">
+          <h3>Desserter</h3>
+          <p class="gdesc">Avrunda med något sött, gärna till en kaffe eller en avec.</p>
+          <div class="dish"><div class="row"><span class="n">Apfelstrudel<span class="tag host">Höstmys</span></span><span class="dots"></span><span class="p">125</span></div>
+          <p class="desc">Smördeg, äpplen, russin och kanel, med vår krämiga vaniljsås.</p></div>
+          <div class="dish"><div class="row"><span class="n">Banana split</span><span class="dots"></span><span class="p">120</span></div>
+          <p class="desc">Vaniljglass, maränger, vispgrädde och chokladsås.</p></div>
+          <div class="dish"><div class="row"><span class="n">Friterad camembert</span><span class="dots"></span><span class="p">140</span></div>
+          <p class="desc">Med varm hjortronsylt och vaniljglass.</p></div>
+          <div class="dish"><div class="row"><span class="n">Husets sorbet</span><span class="dots"></span><span class="p">85</span></div>
+          <p class="desc">Citron, jordgubb eller choklad.</p></div>
+          <div class="dish"><div class="row"><span class="n">Chokladmousse<span class="tag">Klassiker</span></span><span class="dots"></span><span class="p">145</span></div>
+          <p class="desc">Vit och mörk chokladmousse med Cointreau-marinerade bär.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-note">
+      <p>Middag för ett större sällskap, en födelsedag eller ett företagsevent? Ring oss så sätter vi ihop något som passar.</p>
+      <a class="btn dark" href="#boka">Boka bord</a>
+    </div>
+  </div>
+</section>
+
+<div class="strip" aria-hidden="true">
+  <img src="../img/ratt-varm.jpg" width="1000" height="1250" loading="lazy" alt="">
+  <img src="../img/ratt-dessert.jpg" width="1400" height="935" loading="lazy" alt="">
+  <img src="../img/ratt-sas.jpg" width="1400" height="931" loading="lazy" alt="">
+  <img src="../img/ratt-choklad.jpg" width="900" height="1260" loading="lazy" alt="">
+</div>
+
+<section class="swing" id="parcswing">
+  <div class="img" role="img" aria-label="Ett par som dansar swing"></div>
+  <div class="txt">
+    <span class="eyebrow">Parcswing</span>
+    <h2>Dans på Le Parc</h2>
+    <p>Varje fredag och lördag flyttar vi undan borden och låter dansgolvet ta över. Våra DJ:s spelar musik från 60-, 70- och 80-talen hela natten.</p>
+    <p>Fri entré. Kom på middag och stanna kvar, eller dyk upp när det börjar.</p>
+    <div class="swing-times">
+      <div><b>Fredag</b><span>23.00–03.00</span></div>
+      <div><b>Lördag</b><span>23.00–03.00</span></div>
+    </div>
+    <div><a class="btn" href="#boka">Boka middag före dansen</a></div>
+  </div>
+</section>
+
+<section class="gallery" id="galleri">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">Galleri</span>
+      <h2>Livet i parken</h2>
+    </div>
+    <div class="grid">
+      <figure class="wide tall"><img src="../img/park.jpg" width="1920" height="1280" loading="lazy" alt="Le Parc bland körsbärsträden i Börjeparken"><figcaption>Körsbärsblom i Börjeparken</figcaption></figure>
+      <figure class="tall"><img src="../img/affisch-absinthe.jpg" width="700" height="967" loading="lazy" alt="Vintageaffisch för Absinthe Ducros"><figcaption>Affischerna på väggarna</figcaption></figure>
+      <figure><img src="../img/gaster.jpg" width="1400" height="1064" loading="lazy" alt="Glada gäster vid bordet"><figcaption>Vårfest</figcaption></figure>
+      <figure><img src="../img/ratt-sas.jpg" width="1400" height="931" loading="lazy" alt="Kocken lägger upp en rätt"><figcaption>Från köket</figcaption></figure>
+      <figure class="wide"><img src="../img/entre.jpg" width="1600" height="919" loading="lazy" alt="Gången fram till Le Parc"><figcaption>Vägen in från parken</figcaption></figure>
+      <figure><img src="../img/affisch-martini.jpg" width="700" height="953" loading="lazy" alt="Vintageaffisch för Martini &amp; Rossi"><figcaption>Vermouth bianco</figcaption></figure>
+      <figure><img src="../img/veranda.jpg" width="1400" height="985" loading="lazy" alt="Glasverandan full med gäster"><figcaption>Glasverandan</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="booking" id="boka">
+  <div class="wrap book-grid">
+    <div>
+      <span class="eyebrow">Boka bord</span>
+      <h2>Välkommen till oss</h2>
+      <hr class="rule" style="margin-left:0">
+      <p>Enklast är att ringa oss:</p>
+      <a class="phone" href="tel:+4618548488">018-54 84 88</a>
+      <p>Eller skicka en bokningsförfrågan här, så bekräftar vi så snart vi kan.</p>
+      <h3>Events och större sällskap</h3>
+      <p>För större bokningar och speciella tillfällen, ring oss eller mejla <a href="mailto:info@leparc.se" style="color:#fff">info@leparc.se</a>.</p>
+    </div>
+    <form id="book-form" novalidate>
+      <label>Datum<input name="datum" type="date" required id="datum"></label>
+      <label>Tid<select name="tid" required id="tid"></select></label>
+      <label>Antal gäster<select name="gaster" required>
+        <option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option value="fler">Fler än 8</option>
+      </select></label>
+      <label class="full">Namn<input name="namn" required autocomplete="name"></label>
+      <label class="two">E-post<input name="epost" type="email" required autocomplete="email"></label>
+      <label class="half">Telefon<input name="telefon" type="tel" required autocomplete="tel"></label>
+      <label class="full">Meddelande<textarea name="meddelande" placeholder="Allergier, barnstol, plats på terrassen …"></textarea></label>
+      <div class="full form-foot">
+        <button class="btn dark" type="submit">Skicka förfrågan</button>
+        <small>Bokningen gäller när vi har bekräftat den.</small>
+      </div>
+      <p class="sent full" id="sent" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<section class="find" id="hitta">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">Hitta hit</span>
+      <h2>Mitt i Börjeparken</h2>
+      <hr class="rule">
+    </div>
+    <div class="find-grid">
+      <div>
+        <h3>Adress</h3>
+        <p>Le Parc Bistro<br>Torsgatan 15<br>753 13 Uppsala</p>
+        <p style="margin-top:12px"><a href="https://maps.app.goo.gl/FkVsGXXeb9VBwCPcA" target="_blank" rel="noopener">Vägbeskrivning →</a></p>
+      </div>
+      <div>
+        <h3>Kontakt</h3>
+        <p><a href="tel:+4618548488">018-54 84 88</a></p>
+        <p><a href="mailto:info@leparc.se">info@leparc.se</a></p>
+        <p style="margin-top:12px;color:var(--muted);font-size:15px">Fem minuters promenad norr om Domkyrkan och Universitetshuset.</p>
+      </div>
+      <div>
+        <h3>Öppettider</h3>
+        <table class="hours" id="hours">
+          <tr data-d="1"><td>Måndag</td><td>från 16.00</td></tr>
+          <tr data-d="2"><td>Tisdag</td><td>från 16.00</td></tr>
+          <tr data-d="3"><td>Onsdag</td><td>från 16.00</td></tr>
+          <tr data-d="4"><td>Torsdag</td><td>från 16.00</td></tr>
+          <tr data-d="5"><td>Fredag</td><td>från 16.00</td></tr>
+          <tr data-d="6"><td>Lördag</td><td>från 13.00</td></tr>
+          <tr data-d="0"><td>Söndag</td><td>från 13.00</td></tr>
+        </table>
+        <p style="margin-top:10px;color:var(--muted);font-size:14px">Helgdagar kan påverka öppettiderna.</p>
+      </div>
+    </div>
+  </div>
+  <div class="map" id="map"><button type="button" class="map-load"><span class="btn">Visa karta</span><small>Kartan laddas från Google Maps</small></button></div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <img src="../img/logo-vit.png" width="272" height="150" alt="Le Parc">
+        <p>Bistro i Börjeparken, norr om Domkyrkan. Öppet 360 dagar om året.</p>
+        <div class="social">
+          <a href="https://www.instagram.com/leparc_uppsala" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a>
+          <a href="https://www.facebook.com/leparcuppsala/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5H16.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.3H8v3h2.5V21h3z"/></svg></a>
+          <a href="https://www.tripadvisor.se/Restaurant_Review-g189871-d784309-Reviews-Le_Parc-Uppsala_Uppsala_County.html" target="_blank" rel="noopener" aria-label="Tripadvisor"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="13" r="3.5"/><circle cx="17" cy="13" r="3.5"/><circle cx="7" cy="13" r=".9" fill="currentColor"/><circle cx="17" cy="13" r=".9" fill="currentColor"/><path d="M3 8.5h18M12 8.5c-2-1.6-4.2-2.2-6.5-2M12 8.5c2-1.6 4.2-2.2 6.5-2M12 16.5l-1.5-2M12 16.5l1.5-2"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Besök oss</h4>
+        <p>Torsgatan 15<br>753 13 Uppsala</p>
+        <p><a href="tel:+4618548488">018-54 84 88</a><br><a href="mailto:info@leparc.se">info@leparc.se</a></p>
+      </div>
+      <div>
+        <h4>Öppet</h4>
+        <p>Mån–fre från 16.00<br>Lör–sön från 13.00</p>
+        <p>Parcswing fre &amp; lör 23–03</p>
+      </div>
+    </div>
+    <p class="copy">© Le Parc Bistro, Uppsala</p>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="btn" href="#boka">Boka bord</a>
+  <a class="btn ghost" href="tel:+4618548488">Ring oss</a>
+</div>
+
+<script>
+// dagens öppettid i hero och tabellen
+(() => {
+  const wd = new Intl.DateTimeFormat("en-GB", {timeZone:"Europe/Stockholm", weekday:"short"}).format(new Date());
+  const d = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].indexOf(wd);
+  document.querySelector(`#hours tr[data-d="${d}"]`)?.classList.add("today");
+  document.getElementById("today").textContent = "Öppet idag från " + (d === 0 || d === 6 ? "13.00" : "16.00");
+})();
+
+// mobilmeny
+const nav = document.getElementById("nav"), mb = document.getElementById("menu-btn");
+mb.addEventListener("click", () => mb.setAttribute("aria-expanded", nav.classList.toggle("open")));
+nav.querySelectorAll("a").forEach(a => a.addEventListener("click", () => {
+  nav.classList.remove("open"); mb.setAttribute("aria-expanded", false);
+}));
+
+// bokningsformulär – tider och datum, demo som inte skickar något
+(() => {
+  const datum = document.getElementById("datum"), tid = document.getElementById("tid");
+  const iso = d => new Date(d.getTime() - d.getTimezoneOffset() * 6e4).toISOString().slice(0, 10);
+  datum.min = datum.value = iso(new Date());
+  const fill = () => {
+    const helg = [0, 6].includes(new Date(datum.value + "T12:00").getDay()), keep = tid.value;
+    tid.innerHTML = "";
+    for (let m = (helg ? 13 : 16) * 60; m <= 21 * 60 + 30; m += 30)
+      tid.add(new Option(`${String(m / 60 | 0).padStart(2, "0")}.${m % 60 ? "30" : "00"}`));
+    tid.value = [...tid.options].some(o => o.value === keep) ? keep : "18.00";
+    if (!tid.value) tid.selectedIndex = 0;
+  };
+  datum.addEventListener("change", fill); fill();
+
+  const form = document.getElementById("book-form"), sent = document.getElementById("sent");
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    if (!form.checkValidity()) { form.reportValidity(); return; }
+    const f = new FormData(form);
+    sent.textContent = `Tack ${f.get("namn").split(" ")[0]}! Det här är en demo, så förfrågan om bord för ${f.get("gaster")} skickades inte någonstans.`;
+    sent.classList.add("show");
+  });
+})();
+
+// kartan laddas först vid klick (ingen Google-spårning innan dess)
+document.querySelector(".map-load").addEventListener("click", () => {
+  document.getElementById("map").innerHTML = '<iframe title="Karta till Le Parc" src="https://maps.google.com/maps?q=Le%20Parc%20Bistro%2C%20Torsgatan%2015%2C%20Uppsala&z=16&output=embed"></iframe>';
+});
+</script>
+</body>
+</html>
